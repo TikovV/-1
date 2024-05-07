@@ -13,11 +13,6 @@ x= np.linspace(0, np.pi, 100)
 y = f(x, A)
 data = [{"x": x, "y": y} for x, y in zip(x, y)]
 
-'''
-for x, y in zip(x, y):
-    print(f"x: {x}, y: {y}")
-'''
-
 #cоздание директории
 if not os.path.exists('results'):
     os.makedirs('results')
