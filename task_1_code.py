@@ -4,7 +4,7 @@ import os
 import json
 
 def f(x,A):
-    return -1 * np.sin(x) * np.sin ((x**2)/(np.pi))**2*A
+    return -1 * (np.sin(x) * np.sin ((x**2)/(np.pi)))**2*A
 #параметры
 A=10
 x= np.linspace(0, np.pi, 100)
